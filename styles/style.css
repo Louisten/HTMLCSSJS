@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Tempat penulisan CSS */
+.container{
+    max-width: 1240px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav .logo{
+    flex: 1;
+}
+
+nav .logo img{
+    width: 151px;
+    height: 35px;
+}
+
+nav .menu ul{
+    display: flex;
+    list-style: none;
+    width: 455px;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.menu ul li{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav .nav-button a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FBE0DC;
+    padding: 14px 30px;
+    border-radius: 30px 30px 13px 13px;
+    color: #272042;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.hero .hero-desc{
+    max-width: 457px;
+}
+
+.hero .hero-desc h1{
+    font-size: 46px;
+}
+
+.hero .hero-desc p{
+    font-size: 20px;
+    color: #8B8BA5;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.hero .hero-image img{
+    width: 675px;
+    height: 405px;
+}
+
+.hero .hero-button a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #F7C531;
+    padding: 14px 45px;
+    border-radius: 30px 30px 13px 13px;
+    color: #272042;
+    font-weight: 500;
+}
+
+.recommend {
+    margin-top: 100px;
+}
+.recommend .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.recommend .top p{
+    font-size: 20px;
+    color: #8B8BA5;
+    margin-bottom: 10px;
+}
+
+.recommend .top h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.recommend .top ul{
+    display: flex;
+    list-style: none;
+    width: 503px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.recommend .top ul li{
+    font-size: 20px;
+    color: #272042;
+}
+
+.thumbnails-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1238px;
+    margin-bottom: 155px;
+}
+
+.thumbnails-wrapper .thumbnail img{
+    width: 287px;
+    height: 300px;
+}
+
+.thumbnail .thumbnail-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.thumbnail .thumbnail-desc h5{
+    font-size: 25px;
+    color: #272042;
+}
+
+.thumbnail .thumbnail-desc p{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: #8B8BA5;
+}
+
+.thumbnail .thumbnail-desc img{
+    width: 126px;
+    height: 22px;
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.testimonial .quotes{
+    max-width: 736px;
+}
+
+.quotes p{
+    font-size: 36px;
+    color: #272042;
+    text-align: center;
+}
+
+.testimonial .user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testimonial .user img{
+    width: 90px;
+    height: 86px;
+    margin-right: 20px;
+}
+
+.user .name{
+    font-size: 22px;
+    color: #272042;
+    margin-bottom: 6px;
+}
+
+.user .jobs{
+    font-size: 16px;
+    color: #8B8BA5;
+}
+
+.statistic{
+    display: flex;
+    justify-content: space-between;
+    width: 857px;
+    margin: 0 auto 100px;
+}
+
+.total{
+    text-align: center;
+}
+
+.total h5{
+    font-size: 32px;
+    color: #272042;
+}
+
+.total span{
+    font-size: 20px;
+    color: #8B8BA5;
+    font-weight: 400;
+}
+
+.app{
+    display: flex;
+    width: 1023px;
+    justify-content: space-between;
+    margin: 0 auto 100px;
+    align-items: center;
+}
+
+.app img{
+    width: 428px;
+    height: 538px;
+}
+
+.app .app-info{
+    width: 445px;
+}
+
+.app-info h2{
+    font-size: 46px;
+    color: #272042;
+}
+
+.app-info p{
+    font-size: 20px;
+    color: #8B8BA5;
+    margin-top: 10px;
+}
+
+.download img{
+    width: 153px;
+    height: 50px;
+    margin-right: 21px;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 167px;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+}
+
+footer .logo img{
+    width: 151px;
+    height: 35px;
+}
+
+footer h5{
+    font-size: 22px;
+    color: #272042;
+    margin-bottom: 20px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    font-size: 18px;
+    color: #8B8BA5;
+    margin-bottom: 14px;
+}
+
+.copyright{
+    text-align: center;
+    color: #8B8BA5;
+    font-size: 16px;
+    margin: 30px 0;
+}
