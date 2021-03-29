@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Tempat penulisan CSS */
@@ -36,6 +37,10 @@ nav .menu ul{
     width: 455px;
     justify-content: space-between;
     margin-right: 50px;
+}
+
+nav .menu-icon{
+    display: none;
 }
 
 .menu ul li{

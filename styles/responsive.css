@@ -1,0 +1,155 @@
+/*for tablet*/
+@media all and (max-width: 1000px){
+    .menu-icon{
+        display: none;
+    }
+
+    .hero .hero-image img{
+        max-width: 500px;
+        height: 320px;
+    }
+}
+
+
+/*for mobile*/
+@media all and (max-width: 670px) {
+    .container{
+        width: 100%;
+    }
+
+    nav{
+        padding: 20px 20px;
+    }
+
+    nav .menu ul{
+        display: none;
+    }
+    nav .nav-button{
+        display: none;
+    }
+
+    nav .menu-icon{
+        display: block;
+    }
+
+    .hero{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .hero .hero-desc h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .hero .hero-desc p{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0 35px;
+    }
+
+    .hero .hero-image{
+        display: none;
+    }
+
+    .hero .hero-button a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .recommend{
+        margin-top: 70px;
+    }
+
+    .recommend .top ul{
+        justify-content: space-around;
+    }
+
+    .recommend .top ul li{
+        font-size: 15px;
+    }
+
+    .thumbnails-wrapper{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .thumbnail{
+        margin-bottom: 20px;
+    }
+
+    .testimonial .quotes{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+
+    .quotes p{
+        font-size: 20px;
+    }
+
+    .statistic{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .total h5{
+        font-size: 15px;
+    }
+    .total span{
+        font-size: 15px;
+    }
+
+    .app{
+        width: 100%;
+        display: flex;
+    }
+
+    .app .app-img img{
+        display: none;
+    }
+
+    .app .app-info{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .app-info h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .app-info p{
+        font-size: 15px;
+        text-align: center;
+        width: 60%;
+    }
+
+    .download{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer .logo img{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    footer h5{
+        text-align: center;
+    }
+
+    footer ul li{
+        text-align: center;
+    }
+}
